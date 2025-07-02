@@ -11,6 +11,7 @@ import Footer from "@/components/home/Footer";
 export default function Home() {
   return (
     <main>
+      <p className="text-center text-red-500 my-3 fixed top-0 w-full">This is just a Dummy Landing Page</p>
       <Navbar />
       <HeroSection />
       <InfiniteLogosHorizontal />
